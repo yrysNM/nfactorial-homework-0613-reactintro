@@ -1,0 +1,31 @@
+.blockImgsList {
+    width: 300px;
+    flex: 1 1 200px; 
+    position: relative;
+}
+
+.blockImg__title {
+    position: absolute; 
+    left: 50%;
+    top: 50%; 
+    transform: translate(-50%, -50%);
+    font-weight: 400;
+    color: #fff; 
+    font-size: 55px;
+    text-shadow: 5px 2px 10px rgba(0, 0, 0, .4);
+}
+
+.blockImgsList img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+} 
+
+
+@media(max-width: 575px) {
+    .blockImg__title {
+        font-size: 30px;
+    }
+
+    
+}
